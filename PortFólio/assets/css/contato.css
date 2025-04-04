@@ -1,0 +1,75 @@
+/* ESTILIZANDO MAIN */
+main .contato{
+    padding: 80px 4%;
+}
+
+/* ESTILIZANDO TITULO */
+main .contato .interface h2{
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+}
+
+main .contato .interface h2 span{
+    color: #F51400;
+}
+
+/* ESTILIZANDO INTERFACE */
+main .contato .interface{
+    color: #fff;
+    text-align: center;
+    padding: 10px 4%;
+    width: 100%;
+}
+
+main .contato .interface form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input{
+    width: 100%;
+    background-color: rgba(37, 36, 36, 0.641);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea{
+    width: 100%;
+    background-color:rgba(37, 36, 36, 0.641) ;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    resize: none;
+    max-height: 200px;
+}
+
+main .contato .interface form .btn{
+    background-color: #F51400;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    transition: .3s ease-in-out;
+}
+
+main .contato .interface form .btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px #F51400;
+}

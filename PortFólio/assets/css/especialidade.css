@@ -1,0 +1,59 @@
+/* Estilizando Titulo */
+main .especialidades h2{
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+}
+
+main .especialidades h2 span{
+    color: #F51400;
+}
+
+/* Estilizando Main */
+main .especialidades{
+    color: #ffffff;
+}
+
+main .especialidades .interface{
+    height: 80vh;
+    width: 100%;
+    padding: 10px 4%;
+}
+
+main .flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+/* Estilizando Cards */
+    main .flex .card{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 25px;
+    height: 50vh;
+    margin-top: 30px;
+    transition: .3s ease-in-out;
+}
+
+main .flex .card i{
+    margin-top: 18px;
+    font-size: 40px;
+}
+
+main .flex .card h3{
+    font-size: 25px;
+    padding: 25px 0px;
+}
+
+main .flex .card p{
+    font-size: 16px;
+}
+
+main .flex .card:hover{
+    box-shadow: 0 0 20px #f514006c;
+    transform: scale(1.05);
+}

@@ -1,0 +1,216 @@
+@media screen and (max-width: 768px) {
+    body{
+        width: 400px;
+
+    }
+    
+    /* Header Responsivo */
+    header{
+        width: 100%;
+    }
+    header .cabecalho{
+        flex-direction: column;
+        max-width: 700px;
+    }
+
+    header .cabecalho nav ul li{
+        flex-direction: column;
+        font-size: 10px;
+    }
+
+    header .cabecalho nav ul li a{
+        padding: 10px 10px;
+    }
+
+    /* Main Responsivo */
+
+    main .principal{
+        margin-left: 30px;
+        width: 80%;
+        height: 110vh;
+        color: #fff;
+    }
+
+    main .principal img{
+        margin-top: 50px;
+    }
+
+    main .principal .flex{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Estilizando Texto Do Main */
+    main .principal .flex h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 20px;
+        font-size: 20px;
+    }
+
+    main .principal .flex p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px auto;
+        max-width: 500px;
+        width: 55%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    main .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    /* Especialidades Responsivo */
+    main .especialidades{
+        width: 100%;
+        height: 180vh;
+        padding: 0px 4%;
+        color: #fff;
+        margin-top: 100px;
+    }
+    main .especialidades .interface{
+        max-width: 500px;
+        padding: 0px 4%;
+        height: 180vh;
+    }
+
+    main .especialidades .interface h2{
+        font-size: 20px;
+    }
+
+    main .especialidades .interface .flex{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    /* Estilizando Card ESpecialidades */
+    main .especialidades .interface .flex .card{
+        width: 100%;
+        height: 45vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main .especialidades .interface .flex .card h3{
+        font-size: 15px;
+    }
+
+    main .especialidades .interface .flex .card p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    main .especialidades .interface .flex .card i{
+        font-size: 25px;
+    }
+    /* Sobre Responsivo */
+
+    main .sobre{
+        width: 100%;
+        height: 110vh;
+        padding: 0px 4%;
+        color: #fff;
+    }
+
+    main .sobre .interface{
+        position: relative;
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+
+    main .sobre .interface .flexivel{
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+
+    /* Estilizando Texto Sobre */
+    main .sobre .interface h2{
+        font-size: 20px;
+    }
+
+    main .sobre .interface .flexivel .texto-sobre h1{
+        text-align: center;
+        font-size: 20px;
+        line-height: 20px;
+    } 
+
+    main .sobre .interface .flexivel .texto-sobre p{
+        font-size: 15px;
+    }
+
+    main .sobre .interface .flexivel .texto-sobre{
+        width: 100%;
+    }
+
+    /* Estilizando Imagem Sobre */
+    main .sobre .interface .flexivel .img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    main .sobre .interface .flexivel .img img{
+        width: 300px;
+    }
+
+    /* Projetos Responsivo */
+
+    main .Projetos{
+        width: 100%;
+        height: 180vh;
+    }
+
+    main .Projetos .interface h2{
+        font-size: 20px;
+    }
+
+    main .Projetos .interface .flex{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    main .Projetos .interface .flex .card-projeto{
+        height:50vh;
+        width: 80%;
+    }
+
+    /* CONTATO RESPONSIVO */
+
+    main .contato .interface h2{
+        font-size: 20px;
+    }
+
+    main .contato .interface form{
+        flex-direction: column;
+    }
+
+    main .contato .interface form input{
+        width: 100%;
+    }
+
+    main .contato .interface form textarea{
+        width: 100%;
+    }
+
+    main .contato .interface form button{
+        width: 100%;
+    }
+}

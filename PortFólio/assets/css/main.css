@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilizações Globais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Ficar tudo dentro da mesma box*/
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Criando Animação */
+@keyframes floating{
+    0%,100%{
+        transform: translateY(-3px);
+    }
+
+    50%{
+        transform: translateY(3px);
+    }
+}
+
+
+/* Estilizando Header */
+header{
+    padding: 20px 4%;
+}
+
+header .cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    display: inline-block;
+    font-size: 18px;
+}
+
+header li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    transition: .3s ease-in-out;
+}
+
+header li a:hover{
+    color: #F51400;
+    transform: scale(1.05);
+}
+
+
+
+/* Botão De Contato */
+#btn_contato{
+    border: #F51400 solid 2px;
+    padding: 8px 13px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+#btn_contato:hover{
+    color: #ffffff;
+    box-shadow: 0 0 10px #F51400;
+}
+#btn_contato:active{
+    background-color: #F51400;
+}
+
+header img{
+    width: 150px;
+    transition: .5s ease-in-out;
+}
+
+header img:hover{
+    transform: scale(1.15);
+}
+
+/* Estilizando Main */
+main .principal{
+    width: 100%;
+    height: 80vh;
+    padding: 35px 4%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main img{
+    position: relative;
+    border-radius: 100%;
+    animation: floating 2s ease-in-out infinite;
+    width: 350px;
+}
+
+main aside{
+    width: 90vh;
+}
+
+main aside span{
+    color: #F51400;
+    
+}
+
+main h1{
+    font-size: 2.5rem;
+    line-height: 37px;
+}
+
+main p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffff;
+}
+/* Estilizando o botão principal */
+#btn_principal{
+    background-color: #F51400;
+    padding: 12px 16px;
+    width: 250px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 30px;
+    transition: .3s ease-in-out;
+}
+
+#btn_principal:hover{
+    color: #ffffff;
+    box-shadow: 0 0 10px #F51400;
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+#btn_principal:active{
+    background-color: #000;
+}
