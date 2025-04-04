@@ -194,6 +194,10 @@
 
     /* CONTATO RESPONSIVO */
 
+    main .contato{
+        margin-top: 600px;
+    }
+    
     main .contato .interface h2{
         font-size: 20px;
     }

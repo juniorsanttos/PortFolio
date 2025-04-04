@@ -1,61 +1,95 @@
 /* Estilizando Main Projetos */
-main .Projetos{
+main .projetos{
     width: 100%;
     height: 100vh;
     padding: 35px 4%;
 }
 
-main .Projetos .interface{
+main .projetos .interface{
     height: 90vh;
     width: 100%;
     padding: 10px 4%;
 
 }
-
 /* Estilizando Titulo */
-
-main .Projetos .interface h2{
+main .projetos .interface h2{
     color: #ffffff;
     text-align: center;
     padding: 40px;
     font-size: 40px;
 }
 
-main .Projetos h2 span{
+main .projetos .interface h2 span{
     color: #F51400;
 }
 
 /* Estilizando Card */
-main .Projetos .flex .card-projeto{
-    box-shadow: 0px 0px 8px #F51400;
-    width: 360px;
-    height: 460px;
-    background-size: cover;
-    background-position: 100% 0%;
+main .projetos .interface .flex{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2.5rem;
+}
+
+main .projetos .interface .flex .card-portfolio{
+    overflow: hidden;
+    height: 70vh;
     border-radius: 40px;
-    transition: .8s ease-in-out;
-    cursor: pointer;
+    transition: .5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.06);
 }
 
-main .Projetos .flex .card-projeto:hover{
-    background-position: 100% 100%;
+
+main .projetos .interface .flex .card-portfolio:hover{
+    transform: scale(1.05);
+    box-shadow: #F51400 0px 0px 15px;
+    
 }
 
-main .Projetos .flex .card-projeto .overlay{
+/* Estilizarndo Imagem */
+main .projetos .interface .flex .card-portfolio img{
     width: 100%;
-    height: 100%;
-    border-radius: 40px;
-    background-color: #000000a7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 700;
-    opacity: 0;
-    transition: .8s ease-in-out;
+    height: 45vh;
 }
 
-main .Projetos .flex .card-projeto:hover .overlay:hover{
-    opacity: 1;
+main .projetos .interface .flex .card-portfolio .img-card{
+    width: 100%;
+    height: 45vh;
+    background-image: url("../image/portfolio-imagem.png");
+    background-size: 600px;
+    background-repeat: no-repeat;
+}
+
+/* Estilizando Titulo e Paragrafo */
+main .projetos .interface .flex .card-portfolio h3{
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+main .projetos .interface .flex .card-portfolio p{
+    color: #ffffff;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+/* Estilizando Botão */
+main .projetos .interface .flex .card-portfolio button{
+    display: flex;
+    background-color:#F51400;
+    padding: 7px;
+    border: #F51400 solid 2px;
+    border-radius: 40px;
+    margin: 19px auto;
+    transition: .5s ease-in-out;
+}
+
+main .projetos .interface .flex .card-portfolio button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main .projetos .interface .flex .card-portfolio button:hover{
+    box-shadow: 0 0 10px #F51400;
 }
